@@ -135,7 +135,7 @@ function fibonacciFunction() {
             }
         }
     }
-    setTimeout(() => {
+    /*setTimeout(() => {
         fibonacciFunction();
-    }, 1000 * 60 * 5);
+    }, 1000 * 60 * 5);*/
 }
