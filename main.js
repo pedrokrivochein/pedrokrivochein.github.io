@@ -32,6 +32,8 @@ window.addEventListener("scroll", function () {
     contactMiddleballOutline.style.transform = "translateX(-17px) translateY(-17px) skewY(" + value + "deg)";
 });
 
+fibonacciFunction();
+
 function fibonacciFunction() {
 
     //Relogio Fibonacci
