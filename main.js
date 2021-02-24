@@ -27,7 +27,6 @@ window.addEventListener("scroll", function () {
     }
     contactme.style.transform = "skewY(" + -value + "deg)";
     contactText.style.transform = "skewY(" + value + "deg)";
-    contactCircle.style.transform = "skewY(" + value + "deg)";
     contactMiddleball.style.transform = "translateX(-8px) translateY(-8px) skewY(" + value + "deg)";
     contactMiddleballOutline.style.transform = "translateX(-17px) translateY(-17px) skewY(" + value + "deg)";
 });
