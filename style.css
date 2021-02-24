@@ -1,0 +1,62 @@
+.mainBody{
+    background-color: burlywood;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: 2px solid burlywood;
+}
+
+.grid{
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-areas: 
+    'two two one five five five five five'
+    'two two one2 five five five five five'
+    'three three three five five five five five'
+    'three three three five five five five five'
+    'three three three five five five five five';
+}
+
+.one{
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 100px - 2px;
+    height: 100px - 2px;
+    grid-area: one;
+    border: 2px solid burlywood;
+}
+
+.one2{
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 100px - 2px;
+    height: 100px - 2px;
+    grid-area: one2;
+    border: 2px solid burlywood;
+}
+
+.two{
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 200px - 2px;
+    height: 200px - 2px;
+    grid-area: two;
+    border: 2px solid burlywood;
+}
+
+.three{
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 300px - 2px;
+    height: 300px - 2px;
+    grid-area: three;
+    border: 2px solid burlywood;
+}
+
+.five{
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 500px - 2px;
+    height: 500px - 2px;
+    grid-area: five;
+    border: 2px solid burlywood;
+}
