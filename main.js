@@ -93,8 +93,8 @@ function fibonacciFunction() {
         colors[1] -= colors[2];
     }
 
-    if (colors[0] == 4 && colors[1] == 4 && colors[2] == 0) { // Impedir uma exceção. Exemplo: Vermelho = 4 e verde = 4.
-        colors[2] = 1;
+    if (colors[0] == 4 && colors[1] == 4 && (colors[2] == 0 || colors[2] == 4)) { // Impedir uma exceção. Exemplo: Vermelho = 4 e verde = 4.
+        colors[2] += 1;
         colors[0] -= 1;
         colors[1] -= 1
     }
