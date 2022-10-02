@@ -1,4 +1,4 @@
-var desenhos = {
+var desenhos = `{
     "list":
         [
             {
@@ -47,4 +47,4 @@ var desenhos = {
                     ]
                }
     ]
-}
+}`
