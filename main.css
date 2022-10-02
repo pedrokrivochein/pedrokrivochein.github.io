@@ -1,0 +1,89 @@
+body{
+    background-color: wheat;
+    overflow: hidden;
+}
+
+.ps_holder{
+    background-color: wheat;
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    overflow: scroll;
+    overflow-x: hidden;
+    outline: brown solid 50px;
+}
+
+.ps_corrimao{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.ps_moldura{
+    width: 1300px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+    border-radius: 20px;
+}
+
+.p_holder{
+    width: 200px;
+    height: 245px;
+    background-color: wheat;
+}
+
+.p_holder .title{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color: goldenrod;
+}
+
+.p_holder .title p{
+    text-align: center;
+    justify-items: center;
+}
+
+.div_holder{
+    margin-left: 4px;
+    margin-top: 5px;
+    width: 184px;
+    height: 184px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(16, 12px);
+    grid-template-rows: repeat(16, 12px);
+}
+
+.div_paint{
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
