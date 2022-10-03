@@ -50,6 +50,7 @@ body{
     background-color: brown;
     position: fixed;
     bottom: 0;
+    z-index: -1;
 }
 
 .parede_menor2{
